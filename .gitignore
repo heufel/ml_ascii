@@ -1,0 +1,18 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+curated/
+test_imgs/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Project specific
+curated.tar.gz
+model.ipynb program.ipynb
+progress_bar.py
+*.ipynb
