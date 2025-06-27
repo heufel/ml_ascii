@@ -3,4 +3,4 @@
 ## Requires uv. Untested on Windows (Tensorflow might not be available)
 Run `cat split_model/* > ascii_reader.keras`
 ## Running the script:
-Run with uv, or
+Run with uv, or with mlascii.sh
