@@ -16,3 +16,4 @@ curated.tar.gz
 model.ipynb program.ipynb
 progress_bar.py
 *.ipynb
+ascii_reader.keras
