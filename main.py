@@ -123,7 +123,7 @@ if __name__ == "__main__":
         class_names = f.readlines()
     
     asciiList = imgToAscii(path, (width, height), model, class_names)
-    asciiStr = '\n'.join([''.join(line) for line in asciiList if ''.join(line).replace(" ", '') != ''])+'\033[0m'
+    asciiStr = '\n'.join([''.join(line) for line in asciiList if ''.join(line).replace(" ", '') != ''])+'\033[0m\n'
 
     if len(sys.argv) > 4:
         output = open(sys.argv[4], 'w')
